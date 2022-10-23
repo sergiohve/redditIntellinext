@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+}
+.hi{
+    display: flex;
+}
+.text-muted{
+    padding: 5px;
+}
+.bi-badge-4k{
+    color: red;
+}
+.cont-icon{
+    display: block;
+}
+.widgets{
+    display: flex;
+    margin-left: 15px;
+    margin-top: -30px;
+    font-size: 15px;
+    margin: 10px;
+    .wid{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+.card-body{
+    margin-top: -20px;
+}

@@ -1,0 +1,45 @@
+.containerHome {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  .post {
+    width: 95%;
+  }
+
+  .controversial {
+    width: 30%;
+  }
+}
+.text {
+  text-align: center;
+  margin-top: 10%;
+}
+.imagen-publicar {
+  color: white;
+}
+
+.inputPost {
+  background-color: #dae0e6;
+}
+
+@media all and (max-width: 1000px) {
+  .controversial {
+    display: none;
+  }
+}
+@media all and (max-width: 900px) {
+  .containerHome {
+    width: 95%;
+    .post {
+      width: 100%;
+    }
+  }
+  
+}
+@media all and (max-width: 600px) {
+  .containerHome {
+    width: 100%;
+  }
+}
